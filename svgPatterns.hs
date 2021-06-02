@@ -13,13 +13,13 @@ type Circle    = (Point,Float)
 -- (pode ser melhorado substituindo os valores literais por parâmetros)
 -- Além disso, o que acontecerá se n for muito grande ou negativo?
 greenPalette :: Int -> [(Int,Int,Int)]
-greenPalette n = [(0, 80+i*10, 0) | i <- [0..n] ]
+greenPalette n = [(0, 10+i*50, 0) | i <- [0..(n*2)] ]
 
 -- Paleta com n valores retirados de uma lista com sequências de R, G e B 
 -- O '$' é uma facilidade sintática que substitui parênteses
 -- O cycle é uma função bacana -- procure saber mais sobre ela :-)
 rgbPalette :: Int -> [(Int,Int,Int)]
-rgbPalette n = take n $ cycle [(255,0,0),(0,255,0),(0,0,255)]
+rgbPalette n = take (n*2) $ cycle [(255,90,90),(90,255,90),(90,90,255)]
 
 
 
@@ -29,8 +29,8 @@ rgbPalette n = take n $ cycle [(255,0,0),(0,255,0),(0,0,255)]
 
 genRectsInLine :: Int -> [Rect]
 genRectsInLine n  = [((m*(w+gap), 0.0), w, h) | m <- [0..fromIntegral (n-1)]]
-  where (w,h) = (50,50)
-        gap = 10
+  where (w,h) = (150,100)
+        gap = 50
 
 
 -------------------------------------------------------------------------------

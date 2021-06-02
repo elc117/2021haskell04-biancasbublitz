@@ -1,0 +1,12 @@
+<svg width='1500.00' height='500.00' xmlns='http://www.w3.org/2000/svg'>
+<rect x='0.000' y='0.000' width='150.00' height='100.00' style='fill:rgb(255,90,90); mix-blend-mode: screen;' />
+<rect x='200.000' y='0.000' width='150.00' height='100.00' style='fill:rgb(90,255,90); mix-blend-mode: screen;' />
+<rect x='400.000' y='0.000' width='150.00' height='100.00' style='fill:rgb(90,90,255); mix-blend-mode: screen;' />
+<rect x='600.000' y='0.000' width='150.00' height='100.00' style='fill:rgb(255,90,90); mix-blend-mode: screen;' />
+<rect x='800.000' y='0.000' width='150.00' height='100.00' style='fill:rgb(90,255,90); mix-blend-mode: screen;' />
+<rect x='1000.000' y='0.000' width='150.00' height='100.00' style='fill:rgb(90,90,255); mix-blend-mode: screen;' />
+<rect x='1200.000' y='0.000' width='150.00' height='100.00' style='fill:rgb(255,90,90); mix-blend-mode: screen;' />
+<rect x='1400.000' y='0.000' width='150.00' height='100.00' style='fill:rgb(90,255,90); mix-blend-mode: screen;' />
+<rect x='1600.000' y='0.000' width='150.00' height='100.00' style='fill:rgb(90,90,255); mix-blend-mode: screen;' />
+<rect x='1800.000' y='0.000' width='150.00' height='100.00' style='fill:rgb(255,90,90); mix-blend-mode: screen;' />
+</svg>
